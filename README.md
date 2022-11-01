@@ -10,4 +10,4 @@ Include a brief description of how you tested your programs.
  
    To test Phase 2, I added print statements to confirm when the server receives a new request/when the connection closes. I then opened two browsers and observed these print statements to see if the connections would be accepted/end at the same time; this was to test whether my server could support multiple HTTP requests at once. I found this approach difficult because I had to open the second browser very rapidly (before the first browser finished connecting).
 
-    To test Phase 3, I 
+   To test Phase 3, I accessed client.py through my terminal (similar to what I did for Homework 3) and used the command format given in the README.md.
