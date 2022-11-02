@@ -6,6 +6,8 @@ What worked, what didn't, what advice would you give someone taking this course 
 
 Include a brief description of how you tested your programs.
 
+   For this project I collaborated with Lily Garner.
+
    To test Phase 1, I ran the server and made that it sent a “Ready to serve…” message before opening Safari and connecting to the web server.
  
    To test Phase 2, I put print statements to confirm when the server receives a new request/when the connection closes. I then opened two browsers and observed these print statements to see if the connections would be accepted and end at the same time; tto test whether the server could handle multiple HTTP requests at once. I found this hard because I had to open the second browser very quickly (before the first browser finished connecting).
